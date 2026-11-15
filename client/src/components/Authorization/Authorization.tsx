@@ -1,10 +1,9 @@
-import "./Authorization.css";
+import styles from "./Authorization.module.css"
 
 function Authorization() {
   return (
-    <div id="authorizationContainer">
-        
-      <button id="authorizationBtn">Connect your github</button>
+    <div className={styles.authorizationContainer}>
+      <button className={styles.authorizationBtn}>Connect your github</button>
     </div>
   );
 }
